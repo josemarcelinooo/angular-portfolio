@@ -12,10 +12,15 @@
         margin-left: 15px;
         text-decoration: none;
     }
+
+    a.comment:hover {
+        color: $keyword-color;
+        transition: ease 0.3s;
+    }
 }
 
 // Use Flexbox for alignment
-.d-flex {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;

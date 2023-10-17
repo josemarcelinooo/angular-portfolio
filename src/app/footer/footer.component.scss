@@ -1,0 +1,12 @@
+@import '../../styles.scss';
+
+.footer-container {
+    padding: 20px 10%;
+    // background-color: lighten($background-color, 5%);
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

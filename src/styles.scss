@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-color: #007ACC;
+$secondary-color: #D4D4D4;
+$background-color: #1E1E1E;
+$text-color: #D4D4D4;
+$font-family: 'Consolas', monospace;
+
+// Additional Colors from VSCode Dark Theme
+$keyword-color: #569CD6; // This could represent languages' keywords or reserved words
+$string-color: #CE9178; // Representing strings
+$function-name-color: #DCDCAA; // For function names
+$comment-color: #6A9955; // Color for comments
+$variable-color: #9CDCFE; // Variable names or types
+$error-color: #F44747; // Errors or issues
+$active-line-bg: #333842; // The background color of the currently active line in the editor
+
+.keyword {
+    color: $keyword-color;
+}
+
+.string {
+    color: $string-color;
+}
+
+.function-name {
+    color: $function-name-color;
+}
+
+.comment {
+    color: $comment-color;
+}
+
+.variable {
+    color: $variable-color;
+}
+
+.error {
+    color: $error-color;
+}
+
+.active-line {
+    background-color: $active-line-bg;
+}
+
+body {
+    margin: 0;
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font-family;
+}

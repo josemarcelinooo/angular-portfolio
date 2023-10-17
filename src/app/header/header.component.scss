@@ -1,0 +1,22 @@
+@import '../../styles.scss';
+
+.header-container {
+    padding: 20px 10%;
+    background-color: lighten($background-color, 5%);
+
+    .keyword {
+        flex-grow: 1;
+    }
+
+    a.comment {
+        margin-left: 15px;
+        text-decoration: none;
+    }
+}
+
+// Use Flexbox for alignment
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
